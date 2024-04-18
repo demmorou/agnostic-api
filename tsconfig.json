@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "allowJs": true,
+    "rootDirs": [],
+    "removeComments": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@account/*": ["src/account/*"],
+      "@order/*": ["src/order/*"],
+      "@server/*": ["server/*"]
+    },
+    "typeRoots": ["./src/@types", "./node_modules/@types"]
+  }
+}
